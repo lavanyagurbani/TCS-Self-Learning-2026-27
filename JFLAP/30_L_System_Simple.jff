@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>&#13;
+	<type>lsystem</type>&#13;
+	<!--The L-system axiom.-->&#13;
+	<axiom>F X</axiom>&#13;
+	<!--The rewriting rules.-->&#13;
+	<production>&#13;
+		<left>F</left>&#13;
+		<right>g</right>&#13;
+	</production>&#13;
+	<production>&#13;
+		<left>X</left>&#13;
+		<right>X + Y F +</right>&#13;
+	</production>&#13;
+	<production>&#13;
+		<left>Y</left>&#13;
+		<right>-- F X - Y</right>&#13;
+	</production>&#13;
+	<!--The drawing parameters.-->&#13;
+	<parameter>&#13;
+		<name>g</name>&#13;
+		<value/>&#13;
+	</parameter>&#13;
+</structure>

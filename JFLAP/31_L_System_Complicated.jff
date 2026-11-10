@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>&#13;
+	<type>lsystem</type>&#13;
+	<!--The L-system axiom.-->&#13;
+	<axiom>g F + + g F + + g F</axiom>&#13;
+	<!--The rewriting rules.-->&#13;
+	<production>&#13;
+		<left>F</left>&#13;
+		<right>g F - F g + + g F - F g</right>&#13;
+	</production>&#13;
+</structure>
